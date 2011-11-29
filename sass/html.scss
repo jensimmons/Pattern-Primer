@@ -1,0 +1,65 @@
+// --- Reset --------------------------------
+
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, applet, object, iframe, svg,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	text-decoration: inherit;
+	text-align: left;
+	background: transparent;
+}
+header, footer, figure, details, hgroup,
+section, article, nav, aside {
+	display: block;
+}
+img, object, audio, video, svg {
+	max-width: 100%;
+}
+
+
+// --- Typography --------------------------------
+
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+hr {
+	border: none;
+	height: 0.1em;
+}
+li {
+	list-style-position: inside;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+blockquote em {
+	font-style: normal;
+}
+
+
+
+// --- Links --------------------------------
+
+a {
+	white-space: pre-wrap;
+}
+.logo a, h1 a, h2 a, h3 a {
+	border: none;
+}
+

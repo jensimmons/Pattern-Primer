@@ -1,0 +1,134 @@
+// --- Forms --------------------------------
+
+label {
+	cursor: pointer;
+}
+input[type],
+textarea,
+select {
+	background-color: #fff;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.125em;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-o-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+input[type="checkbox"],
+input[type="radio"],
+input[type="image"] {
+	width: auto;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+	border-color: #666;
+}
+input[required],
+textarea[required] {
+	border-color: #999;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+	width: auto;
+	text-align: center;
+	font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: normal;
+	border: 1px solid #666;
+	cursor: pointer;
+	padding: 0.5em 1em;
+	line-height: 1;
+	background-color: #369;
+	color: #fff;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#47a),to(#258));
+	background-image: -moz-linear-gradient(top,#47a,#258);
+	background-image: -o-linear-gradient(top,#47a,#258);
+	background-image: linear-gradient(top,#47a,#258);
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+	border-radius: 1em;
+}
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	outline: none;
+	background-color: #c03;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#d04),to(#b02));
+	background-image: -moz-linear-gradient(top,#d04,#b02);
+	background-image: -o-linear-gradient(top,#d04,#b02);
+	background-image: linear-gradient(top,#d04,#b02);
+
+	color: #fff;
+}
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+	background-color: #900;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#800),to(#a00));
+	background-image: -moz-linear-gradient(top,#800,#a00);
+	background-image: -o-linear-gradient(top,#800,#a00);
+	background-image: linear-gradient(top,#800,#a00);
+	color: #fff;
+}
+
+// --- Search --------------------------------
+
+[role="search"] {
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 0 0.75em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius:1em;
+	-o-border-radius: 1em;
+	border-radius: 1em;
+}
+[role="search"] input {
+	border: none;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+[role="search"] input[type="image"] {
+	background-color: #fff;
+	position: absolute;
+	width: 0.9375em;
+	top: 0.2em;
+	right: 0.6em;
+	padding: 0.2em 0.2em;
+}
+
+
+// --- Options --------------------------------
+
+.options {
+	list-style: none;
+	border-top: 1px solid #ccc;
+}
+.options li {
+	text-indent: 0;
+	font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.3125em 0.625em;
+	border-bottom: 1px solid #ccc;
+}
+.options a {
+	display: block;
+	border: none;
+}

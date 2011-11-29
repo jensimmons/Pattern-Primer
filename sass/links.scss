@@ -1,0 +1,103 @@
+// --- Links --------------------------------
+
+a {
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+a:link,
+a:visited {
+	color: #369;
+	border-bottom-color: #369;
+}
+a[href]:hover,
+a[href]:focus {
+	color: #c03;
+	border-bottom-color: #c03;
+}
+a:active {
+	color: #900;
+	border-bottom-color: #900;
+}
+
+// --- Pagination --------------------------------
+
+.pagination {
+	font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+}
+.pagination li {
+	display: inline;
+	margin-left: 0;
+	text-indent: 0;
+}
+.pagination a {
+	display: inline-block;
+	padding: 0.5em 1em;
+	line-height: 1;
+	margin: 0.1em;
+	border: 1px solid #666;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-o-border-radius: 0.25em;
+	border-radius: 0.25em;
+	background-clip: padding-box;
+}
+.pagination a:link,
+.pagination a:visited {
+	color: #fff;
+	background-color: #369;
+}
+.pagination a[href]:hover,
+.pagination a[href]:focus {
+	color: #fff;
+	background-color: #c03;
+}
+.pagination a:active {
+	color: #fff;
+	background-color: #900;
+}
+
+// --- Control --------------------------------
+
+a.control {
+	font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 0.5em 0.75em;
+	line-height: 1;
+	border: 1px solid #666;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-o-border-radius: 0.25em;
+	border-radius: 0.25em;
+	background-clip: padding-box;
+}
+a.control:link,
+a.control:visited {
+	background-color: #369;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#47a),to(#258));
+	background-image: -moz-linear-gradient(top,#47a,#258);
+	background-image: -o-linear-gradient(top,#47a,#258);
+	background-image: linear-gradient(top,#47a,#258);
+	color: #fff;
+}
+a.control:hover,
+a.control:focus {
+	outline: none;
+	background-color: #c03;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#d04),to(#b02));
+	background-image: -moz-linear-gradient(top,#d04,#b02);
+	background-image: -o-linear-gradient(top,#d04,#b02);
+	background-image: linear-gradient(top,#d04,#b02);
+	color: #fff;
+}
+a.control:active {
+	background-color: #900;
+	background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#800),to(#a00));
+	background-image: -moz-linear-gradient(top,#800,#a00);
+	background-image: -o-linear-gradient(top,#800,#a00);
+	background-image: linear-gradient(top,#800,#a00);
+	color: #fff;
+}
+
+

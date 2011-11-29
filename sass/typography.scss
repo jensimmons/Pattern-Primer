@@ -1,0 +1,160 @@
+// --- Overall --------------------------------
+
+body {
+	font-size: 100%;
+	line-height: 1.875;
+	font-family: Cambria, Georgia, serif;
+	color: #333;
+}
+hr {
+	background: #ccc;
+	background-color: rgba(0,0,0,0.2);
+}
+p, ul, ol, hr, table, form, fieldset {
+	margin: 1.25em 0;
+}
+div[role="main"] {
+
+}
+
+// --- Headlines --------------------------------
+
+h1 {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	line-height: 1.125;
+	padding-top: 1em;
+	margin-bottom: 0.3em;
+	color: #444;
+	border-bottom: 0.2em solid #693;
+}
+h2 {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-weight: normal;
+	font-size: 1.875em;
+	line-height: 1.5;
+	padding-top: 0.8333em;
+	margin-bottom: 0.7em;
+	color: #555;
+	border-bottom: 0.13333em solid #693;
+}
+h3 {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-weight: normal;
+	font-size: 1.5625em;
+	line-height: 1.4;
+	padding-top: 1em;
+	margin-bottom: 0.7em;
+	color: #666;
+	border-bottom: 0.1em solid #693;
+}
+h4 {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-weight: normal;
+	font-size: 1.25em;
+	line-height: 1.5;
+	padding-top: 1em;
+	margin-bottom: 1em;
+	color: #777;
+}
+h5 {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-weight: normal;
+	font-size: 1.125em;
+	line-height: 1.6667;
+	padding-top: 1.1111em;
+	color: #888;
+}
+h6 {
+	padding-top: 1em;
+	color: #999;
+}
+
+@media (min-width: 480px) {
+
+}
+@media (min-width: 600px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1280px) {
+
+}
+
+// --- More --------------------------------
+
+blockquote {
+	margin: 1em;
+	border-top: 0.1em solid;
+	border-bottom: 0.1em solid;
+	padding: 0 1em;
+	font-family: Palatino, Georgia, serif;
+	font-style: italic;
+	font-size: 1.25em;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	color: #888;
+	border-color: #ccc;
+	border-color: rgba(0,0,0,0.2);
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-o-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+figcaption {
+	font-family: Palatino, Cambria, Georgia, serif;
+	font-style: italic;
+	font-size: 0.857em;
+	line-height: 1.4286;
+	color: #666;
+}
+article > p,
+article section > p {
+	font-size: 1.125em;
+	line-height: 1.6667;
+	word-spacing: 0.1em;
+	margin: 1.1111em 0;
+/*	Does this improve the reading experience?
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	text-align: justify;
+*/
+}
+article footer+p:first-letter,
+article section>h2+p:first-letter,
+article section>p:first-child:first-letter {
+	display: inline-block;
+	float: left;
+	font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+	line-height: 0.75;
+	letter-spacing: -0.025em;
+	margin-right: 0.05em;
+	background-color: #693;
+	color: #fff;
+	border: 1px solid #693;
+
+}
+time {
+	display: block;
+	text-align: right;
+	font-weight: normal;
+	font-family: Palatino, Cambria, Georgia, serif;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	line-height: 1.6667;
+	letter-spacing: 0.2em;
+	color: #888;
+}
+time:before {
+	content: '—';
+}
+
