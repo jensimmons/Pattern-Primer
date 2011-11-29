@@ -1,3 +1,15 @@
+This is a fork from the fabulous Jeremy Keith's Pattern Primer code at https://github.com/adactio/Pattern-Primer. He's written about it on his blog http://adactio.com/journal/5028/. 
+
+I prefer to have CSS in separate files so I can more quicky find what it is I want to change, or read down the code itself as a to-do list of what I need to change. I also prefer to separate the CSS that should be used on all sites (bug fixes, resets, best practices) from the CSS that will definitely be different (colors, fonts, borders/no borders). That way I won't hurt the always-use code while ripping about the always-change code. And I don't have to see it, think about it, or have it clutter up what I'm doing. So I've seaparated it all out. 
+
+And I've used SASS. http://sass-lang.com Perhaps later I'll Sassify this more — nesting, using variables, making the separate stylesheets into partials (http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#partials) so that they compile into one CSS file. Maybe. This is good for now.
+
+Really I am putting this up on github for myself, so I can use it again later. Maybe it will be helpful to someone else as something to take a look at. I don't plan to make a big deal out of this. I want to try it out first and see how this kind of tool works in my own practice. If I find it useful, then I'll likely add in more best practices from other places, and relaunch this as a separate github project. For now, it's just a fork of Jeremy's work. 
+
+--------------------------------------
+
+Jeremy Keith wrote about this:
+
 Create little snippets of markup and save them to the "patterns folder." The pattern primer will generate a list of all the patterns in that folder. You will see the pattern rendered as HTML. You will also get the source displayed in a textarea.
 
 You should be able to take the whole "pattern-primer" folder and drop it into your own project (assuming you're running PHP) **BUT** make sure to update the link element in the head of pattern-primer/index.php to point to your own CSS.

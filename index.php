@@ -2,7 +2,13 @@
 <head>
 <meta charset="utf-8">
 <title>Pattern Primer</title>
-<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="stylesheets/html.css">
+<link rel="stylesheet" href="stylesheets/layout.css">
+<link rel="stylesheet" href="stylesheets/backgrounds.css">
+<link rel="stylesheet" href="stylesheets/typography.css">
+<link rel="stylesheet" href="stylesheets/links.css">
+<link rel="stylesheet" href="stylesheets/forms.css">
+<link rel="stylesheet" href="stylesheets/messages.css">
 <style>
 .pattern {
     clear: both;
@@ -20,6 +26,10 @@
     width: 90%;
 }
 </style>
+
+<script type="text/javascript" src="http://use.typekit.com/ziw3iob.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 <body>
 

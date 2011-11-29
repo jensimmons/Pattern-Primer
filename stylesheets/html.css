@@ -1,0 +1,71 @@
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+/* line 13, ../sass/html.scss */
+html, body, applet, object, iframe, svg,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  text-align: left;
+  background: transparent;
+}
+
+/* line 26, ../sass/html.scss */
+header, footer, figure, details, hgroup,
+section, article, nav, aside {
+  display: block;
+}
+
+/* line 29, ../sass/html.scss */
+img, object, audio, video, svg {
+  max-width: 100%;
+}
+
+/* line 36, ../sass/html.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 39, ../sass/html.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 42, ../sass/html.scss */
+hr {
+  border: none;
+  height: 0.1em;
+}
+
+/* line 46, ../sass/html.scss */
+li {
+  list-style-position: inside;
+  margin-left: 1em;
+  text-indent: -1em;
+}
+
+/* line 51, ../sass/html.scss */
+blockquote em {
+  font-style: normal;
+}
+
+/* line 59, ../sass/html.scss */
+a {
+  white-space: pre-wrap;
+}
+
+/* line 62, ../sass/html.scss */
+.logo a, h1 a, h2 a, h3 a {
+  border: none;
+}

@@ -1,0 +1,18 @@
+/* line 3, ../sass/messages.scss */
+.feedback {
+  background-color: #ffc;
+  padding: 0.125em 1em;
+  margin: 1em 0;
+  border-top: 0.125em solid #cc9;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+  background-clip: padding-box;
+}
+
+/* line 14, ../sass/messages.scss */
+.error {
+  background-color: #fcc;
+  border-color: #c99;
+}
